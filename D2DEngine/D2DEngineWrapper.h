@@ -42,8 +42,8 @@ public:
     ComPtr<IDXGIDevice3> m_dxgiDevice;
 
     // 창 크기
-    UINT            m_Width = 1024;
-    UINT            m_Height = 768;
+    UINT            m_Width = 1920;
+    UINT            m_Height = 1080;
     HWND            m_hwnd = nullptr;
 private:
     bool m_initialized = false;
@@ -52,7 +52,7 @@ private:
     HINSTANCE		m_hInstance;
 
     std::wstring	m_WindowName = L"D2DEngine";
-    std::wstring	m_TitleName = L"DemoGameTest";     // 이게 창 이름임
+    std::wstring	m_TitleName = L"한글 테스트";     // 이게 창 이름임
     std::string		m_ModulePath;
     std::string		m_WorkingPath;
 
