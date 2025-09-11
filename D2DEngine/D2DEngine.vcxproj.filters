@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{657e67f1-d42f-49d8-b98e-b7c5d63bab54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{f253daf6-e129-4e24-be63-cdc9fd564467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{adf6a513-a81c-4012-a53e-02f662354c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{e5cc3afc-a8ea-4cf5-a166-637b7b685cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Audio">
+      <UniqueIdentifier>{17cf5db9-dfae-4ab3-a19a-d6d2294bce9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI">
+      <UniqueIdentifier>{e025a725-53bf-474c-b269-4bb43ea190de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Input">
+      <UniqueIdentifier>{0a32aa2f-c7e6-4a92-af42-3288e37b909e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Render">
+      <UniqueIdentifier>{e6f12d6c-3bc4-43aa-97d4-7088098858f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Script">
+      <UniqueIdentifier>{18929891-b5c9-496f-8382-6de311bc3bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Transform">
+      <UniqueIdentifier>{8fa601e2-c740-4deb-868c-e49b2dbda15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Audio">
+      <UniqueIdentifier>{601e634a-fd7a-4f08-b1c4-d9d0f546471e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Resource">
+      <UniqueIdentifier>{6c7939b0-f49d-46ad-a5fd-4a5402e44eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Health">
+      <UniqueIdentifier>{0fb9a9d3-a59f-4167-acbc-08254d832f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Render">
+      <UniqueIdentifier>{22452062-ba87-40b5-b884-59051ea9ec8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Util">
+      <UniqueIdentifier>{bb70b398-e550-416e-bf39-273a016471cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\GameSystem">
+      <UniqueIdentifier>{26e6b816-a738-474c-b721-81e5bdf55e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Input">
+      <UniqueIdentifier>{591f70b6-adaa-4bfa-a93e-9f02d1c2f8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Animator">
+      <UniqueIdentifier>{b02d7a72-222c-4d2e-85c2-75c66900f838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Script">
+      <UniqueIdentifier>{fb30e467-cf80-4d9f-99db-bc8c7c84bef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{756dcdda-ebae-46b6-bba7-554786234b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Time">
+      <UniqueIdentifier>{9c378427-e4eb-4c0c-bf6d-ccd93a24a454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Collider">
+      <UniqueIdentifier>{be602f8d-2c86-4d23-99db-9acc1a0ec63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rigidbody">
+      <UniqueIdentifier>{7cad435e-f438-4820-9512-47897360c865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider">
+      <UniqueIdentifier>{f80cedff-5c22-4cb2-bee8-c504361a1d50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioComponent.h">
+      <Filter>Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonComponent.h">
+      <Filter>Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Components\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderComponent.h">
+      <Filter>Components\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderComponent.h">
+      <Filter>Components\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptComponent.h">
+      <Filter>Components\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Managers\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComponent.h">
+      <Filter>Components\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Systems\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapResource.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiDelegate.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Systems\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Systems\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DEngineWrapper.h">
+      <Filter>Systems\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHandleTable.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorComponent.h">
+      <Filter>Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptSystem.h">
+      <Filter>Systems\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationBaseState.h">
+      <Filter>Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader.h">
+      <Filter>Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Systems\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicComponent.h">
+      <Filter>Components\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicComponent.h">
+      <Filter>Components\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxColliderComponent.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDebugRenderer.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderSystem.h">
+      <Filter>Systems\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Managers\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioComponent.cpp">
+      <Filter>Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonComponent.cpp">
+      <Filter>Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Components\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderComponent.cpp">
+      <Filter>Components\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderComponent.cpp">
+      <Filter>Components\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptComponent.cpp">
+      <Filter>Components\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Managers\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Managers\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Systems\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapResource.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DEngine.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Systems\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Systems\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComponent.cpp">
+      <Filter>Components\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DEngineWrapper.cpp">
+      <Filter>Systems\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiDelegate.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectHandleTable.cpp">
+      <Filter>Systems\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorComponent.cpp">
+      <Filter>Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptSystem.cpp">
+      <Filter>Systems\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationBaseState.cpp">
+      <Filter>Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader.cpp">
+      <Filter>Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Systems\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicComponent.cpp">
+      <Filter>Components\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicComponent.cpp">
+      <Filter>Components\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxColliderComponent.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDebugRenderer.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
