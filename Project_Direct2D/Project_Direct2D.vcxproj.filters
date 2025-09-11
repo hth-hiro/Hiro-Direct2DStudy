@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{1fb40906-1129-4f2f-abda-19dab59ef776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{08c58690-1045-473a-8c8c-1f002144af1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UI">
+      <UniqueIdentifier>{1e51d010-0143-4275-871e-899484545325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\03.AnimeScene">
+      <UniqueIdentifier>{f70854c3-f4e9-440b-8084-e611ed538365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\02.PlayScene">
+      <UniqueIdentifier>{0c833efa-5d73-4e0d-a960-e95cf79fd713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\01.TitleScene">
+      <UniqueIdentifier>{f02cca50-42cf-4ba5-a72a-1673775b6d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Audio">
+      <UniqueIdentifier>{0a2f26a1-7680-40ff-a218-80cf01d20f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Animation">
+      <UniqueIdentifier>{fa5154ae-c18e-48f0-abe8-4ba489bb58e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{8f18c227-eac7-44fc-ab00-2847f4225fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scenes">
+      <UniqueIdentifier>{c983354c-75e4-4606-a337-be880fe092ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{a42c3b44-ccb1-43e0-aec0-25f0733fac2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\04.DemoScene">
+      <UniqueIdentifier>{cef968b3-dbfb-4cdf-9e34-2a971ee837d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dummy">
+      <UniqueIdentifier>{5e883e73-c488-4f5f-96ff-c7bbefb0a6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scenes">
+      <UniqueIdentifier>{5f060feb-174f-467f-bbe9-9b5d5f38d3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{ce3569dd-e262-4090-95aa-3ffd52ae667d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\05.KinematicScene">
+      <UniqueIdentifier>{26aa7577-759b-4c23-9105-dab7369de32b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimeScene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Wonderhoy.cpp">
+      <Filter>Scripts\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimeRenderScript.cpp">
+      <Filter>Scripts\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Text.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Button.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoScene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Throw.cpp">
+      <Filter>Dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="BookAnimScript.cpp">
+      <Filter>Dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoGameApp.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoTextScript.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicScene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicTextScript.cpp">
+      <Filter>Scripts\05.KinematicScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FireZoneScript.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project_Direct2D.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleTextScript.h">
+      <Filter>Scripts\01.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBackgroundScript.h">
+      <Filter>Scripts\01.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleInputScript.h">
+      <Filter>Scripts\01.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayInputScript.h">
+      <Filter>Scripts\02.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayBackgroundScript.h">
+      <Filter>Scripts\02.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayTextScript.h">
+      <Filter>Scripts\02.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayMemoryTextScript.h">
+      <Filter>Scripts\02.PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnButtonScript.h">
+      <Filter>Scripts\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Wonderhoy.h">
+      <Filter>Scripts\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeTextScript.h">
+      <Filter>Scripts\03.AnimeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeRenderScript.h">
+      <Filter>Scripts\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Button.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Text.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeInputScript.h">
+      <Filter>Scripts\03.AnimeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoInputScript.h">
+      <Filter>Scripts\04.DemoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Throw.h">
+      <Filter>Dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="BookAnimScript.h">
+      <Filter>Dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovementScript.h">
+      <Filter>Scripts\04.DemoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoGameApp.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoTextScript.h">
+      <Filter>Scripts\04.DemoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerKinematicScript.h">
+      <Filter>Scripts\05.KinematicScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransformScript.h">
+      <Filter>Scripts\03.AnimeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicTextScript.h">
+      <Filter>Scripts\05.KinematicScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FireZoneScript.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\x64\Debug\Wonderhoy.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
