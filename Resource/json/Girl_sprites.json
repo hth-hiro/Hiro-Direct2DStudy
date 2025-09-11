@@ -1,0 +1,268 @@
+{
+    "texture": "Girl.png",
+    "textureWidth": 768,
+    "textureHeight": 240,
+    "sprites": [
+        {
+            "name": "Girl_Attack_0",
+            "x": 0.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_1",
+            "x": 64.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_2",
+            "x": 128.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_3",
+            "x": 192.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_4",
+            "x": 256.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_5",
+            "x": 320.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_6",
+            "x": 384.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Attack_7",
+            "x": 448.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_8",
+            "x": 512.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_9",
+            "x": 576.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_10",
+            "x": 640.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_11",
+            "x": 704.0,
+            "y": 160.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_12",
+            "x": 0.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_13",
+            "x": 64.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_14",
+            "x": 128.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_15",
+            "x": 192.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Idle_16",
+            "x": 256.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_17",
+            "x": 320.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_18",
+            "x": 384.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_19",
+            "x": 448.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_20",
+            "x": 512.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_21",
+            "x": 576.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_22",
+            "x": 640.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_23",
+            "x": 704.0,
+            "y": 80.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_24",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_25",
+            "x": 64.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_26",
+            "x": 128.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_27",
+            "x": 192.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        },
+        {
+            "name": "Girl_Walk_28",
+            "x": 256.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 80.0,
+            "pivotX": 0.5,
+            "pivotY": 0.0
+        }
+    ]
+}

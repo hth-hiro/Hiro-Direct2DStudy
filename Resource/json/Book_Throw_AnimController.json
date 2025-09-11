@@ -1,0 +1,58 @@
+{
+    "controllerName": "Book",
+    "parameters": [
+        {
+            "name": "isThrow",
+            "type": "Bool",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        }
+    ],
+    "defaultState": "None",
+    "states": [
+        {
+            "name": "Book_Throw",
+            "motionName": "Book_Throw",
+            "clipLength": 0.6666666269302368,
+            "loop": true,
+            "transitions": [
+                {
+                    "fromState": "Book_Throw",
+                    "toState": "None",
+                    "exitTime": 0.625,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "isThrow",
+                            "mode": "IfNot",
+                            "threshold": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "None",
+            "motionName": "",
+            "clipLength": 0.0,
+            "loop": false,
+            "transitions": [
+                {
+                    "fromState": "None",
+                    "toState": "Book_Throw",
+                    "exitTime": 0.75,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "isThrow",
+                            "mode": "If",
+                            "threshold": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "anyStateTransitions": []
+}

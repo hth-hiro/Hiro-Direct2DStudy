@@ -1,0 +1,79 @@
+{
+    "texture": "Book.png",
+    "textureWidth": 512,
+    "textureHeight": 64,
+    "sprites": [
+        {
+            "name": "Book_Throw_0",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_1",
+            "x": 64.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_2",
+            "x": 128.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_3",
+            "x": 192.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_4",
+            "x": 256.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_5",
+            "x": 320.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_6",
+            "x": 384.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        {
+            "name": "Book_Throw_7",
+            "x": 448.0,
+            "y": 0.0,
+            "width": 64.0,
+            "height": 64.0,
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        }
+    ]
+}

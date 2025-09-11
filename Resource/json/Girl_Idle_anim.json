@@ -1,0 +1,45 @@
+{
+    "clipName": "Girl_Idle",
+    "loop": true,
+    "texturePath": "../Girl.png",
+    "duration": 1.125,
+    "frames": [
+        {
+            "sprite": "Girl_Idle_8",
+            "time": 0.0
+        },
+        {
+            "sprite": "Girl_Idle_9",
+            "time": 0.125
+        },
+        {
+            "sprite": "Girl_Idle_10",
+            "time": 0.25
+        },
+        {
+            "sprite": "Girl_Idle_11",
+            "time": 0.375
+        },
+        {
+            "sprite": "Girl_Idle_12",
+            "time": 0.5
+        },
+        {
+            "sprite": "Girl_Idle_13",
+            "time": 0.625
+        },
+        {
+            "sprite": "Girl_Idle_14",
+            "time": 0.75
+        },
+        {
+            "sprite": "Girl_Idle_15",
+            "time": 0.875
+        },
+        {
+            "sprite": "Girl_Idle_16",
+            "time": 1.0
+        }
+    ],
+    "events": []
+}

@@ -1,0 +1,153 @@
+{
+    "controllerName": "Girl",
+    "parameters": [
+        {
+            "name": "velocityX",
+            "type": "Float",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        },
+        {
+            "name": "velocityY",
+            "type": "Float",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        },
+        {
+            "name": "isGround",
+            "type": "Bool",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        },
+        {
+            "name": "isAttack",
+            "type": "Bool",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        },
+        {
+            "name": "isHurt",
+            "type": "Trigger",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        },
+        {
+            "name": "isDead",
+            "type": "Bool",
+            "defaultFloat": 0.0,
+            "defaultInt": 0,
+            "defaultBool": false
+        }
+    ],
+    "defaultState": "Girl_Idle",
+    "states": [
+        {
+            "name": "Girl_Attack",
+            "motionName": "Girl_Attack",
+            "clipLength": 0.6666666865348816,
+            "loop": false,
+            "transitions": [
+                {
+                    "fromState": "Girl_Attack",
+                    "toState": "Girl_Idle",
+                    "exitTime": 0.625,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "isAttack",
+                            "mode": "IfNot",
+                            "threshold": 0.0
+                        }
+                    ]
+                },
+                {
+                    "fromState": "Girl_Attack",
+                    "toState": "Girl_Walk",
+                    "exitTime": 0.625,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "velocityX",
+                            "mode": "Greater",
+                            "threshold": 0.0010000000474974514
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Girl_Idle",
+            "motionName": "Girl_Idle",
+            "clipLength": 0.75,
+            "loop": true,
+            "transitions": [
+                {
+                    "fromState": "Girl_Idle",
+                    "toState": "Girl_Attack",
+                    "exitTime": 0.6666666269302368,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "isAttack",
+                            "mode": "If",
+                            "threshold": 0.0
+                        }
+                    ]
+                },
+                {
+                    "fromState": "Girl_Idle",
+                    "toState": "Girl_Walk",
+                    "exitTime": 0.6666666269302368,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "velocityX",
+                            "mode": "Greater",
+                            "threshold": 0.0010000000474974514
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Girl_Walk",
+            "motionName": "Girl_Walk",
+            "clipLength": 1.0,
+            "loop": true,
+            "transitions": [
+                {
+                    "fromState": "Girl_Walk",
+                    "toState": "Girl_Attack",
+                    "exitTime": 0.75,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "isAttack",
+                            "mode": "If",
+                            "threshold": 0.0
+                        }
+                    ]
+                },
+                {
+                    "fromState": "Girl_Walk",
+                    "toState": "Girl_Idle",
+                    "exitTime": 0.75,
+                    "hasExitTime": true,
+                    "conditions": [
+                        {
+                            "parameter": "velocityX",
+                            "mode": "Less",
+                            "threshold": 0.0010000000474974514
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "anyStateTransitions": []
+}
