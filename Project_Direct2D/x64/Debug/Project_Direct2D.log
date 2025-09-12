@@ -1,7 +1,1 @@
-﻿  TitleScene.cpp
-C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
-  (소스 파일 'TitleScene.cpp'을(를) 컴파일하는 중)
-      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
-      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
-  
-  Project_Direct2D.vcxproj -> C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\Project_Direct2D.exe
+﻿  Project_Direct2D.vcxproj -> C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\Project_Direct2D.exe

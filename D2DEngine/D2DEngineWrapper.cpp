@@ -26,7 +26,7 @@ void D2DEngineWrapper::Initialize()
 	RegisterClassEx(&wc);
 
 	// 원하는 크기가 조정되어 리턴
-	SIZE clientSize = { m_Width, m_Height };
+	SIZE clientSize = { m_ClientWidth, m_ClientHeight };
 	RECT clientRect = { 0, 0, clientSize.cx, clientSize.cy };
 	AdjustWindowRect(&clientRect, WS_OVERLAPPEDWINDOW, FALSE);
 
@@ -185,7 +185,7 @@ void D2DEngineWrapper::DrawBitmapForTransform(ID2D1Bitmap1* bitmap, TransformCom
 {
 	if (g_bUnityCoords)
 		g_matUnity = D2D1::Matrix3x2F::Scale(1.0f, -1.0f) *
-		D2D1::Matrix3x2F::Translation(m_Width / 2.0f, m_Height / 2.0f);
+		D2D1::Matrix3x2F::Translation(m_ClientWidth / 2.0f, m_ClientHeight / 2.0f);
 	else
 		g_matUnity = D2D1::Matrix3x2F::Identity();
 
@@ -237,6 +237,42 @@ void D2DEngineWrapper::DrawBitmapForTransform(ID2D1Bitmap1* bitmap, TransformCom
 
 		m_d2dDeviceContext->DrawBitmap(bitmap, nullptr, 1.0f, D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, &newSrcRect);
 	}
+}
+
+void D2DEngineWrapper::DrawBitmapFixed(ID2D1Bitmap1* bitmap, TransformComponent& transform, float opacity, const D2D1_RECT_F* srcRect, bool isUI)
+{
+	if (g_bUnityCoords)
+		g_matUnity = D2D1::Matrix3x2F::Scale(1.0f, -1.0f) *
+		D2D1::Matrix3x2F::Translation(m_ClientWidth / 2.0f, m_ClientHeight / 2.0f);
+	else
+		g_matUnity = D2D1::Matrix3x2F::Identity();
+
+	if (!opacity || opacity > 1.0f) opacity = 1.0f;
+	if (opacity < 0.0f) opacity = 0.0f;
+
+	D2D1_RECT_F newSrcRect = *srcRect;
+
+	// Offset
+	newSrcRect.top += 1;
+	newSrcRect.bottom += 1;
+	newSrcRect.left += 1;
+	newSrcRect.right -= 1;
+
+	D2D1::Matrix3x2F matRender = MakeRenderMatrix(false, g_bUnityCoords,
+		(newSrcRect.right - newSrcRect.left) * 0.5f,
+		(newSrcRect.bottom - newSrcRect.top) * 0.5f + 1
+	);
+
+	// 여기서 transform.GetWorldMatrix()를 그대로 쓰되,
+	// matCameraInv 또는 창 크기 비율 스케일을 적용하지 않음
+	D2D1::Matrix3x2F matFinal = matRender * transform.GetWorldMatrix();
+
+	if (g_bUnityCoords)
+		matFinal = matFinal * g_matUnity;
+
+	m_d2dDeviceContext->SetTransform(matFinal);
+
+	m_d2dDeviceContext->DrawBitmap(bitmap, nullptr, opacity, D2D1_BITMAP_INTERPOLATION_MODE_LINEAR, &newSrcRect);
 }
 
 void D2DEngineWrapper::DrawTextForTransform(const wchar_t* str, IDWriteTextFormat* textformat, float fontsize, D2D1::ColorF& color, TransformComponent& transform)

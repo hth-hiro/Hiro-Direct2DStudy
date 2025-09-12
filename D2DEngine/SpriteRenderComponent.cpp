@@ -17,7 +17,6 @@ void SpriteRenderComponent::Render()
 		m_sprite.y + m_sprite.height
 	);
 
-	//D2DEngineWrapper
-
+	//D2DEngineWrapper::GetInstance().DrawBitmapFixed(m_bitmap->GetBitmap(), *transformPtr, m_opacity, &srcRect, owner->isUI());
 	D2DEngineWrapper::GetInstance().DrawBitmapForTransform(m_bitmap->GetBitmap(), *transformPtr, m_opacity, &srcRect, owner->isUI());
 }

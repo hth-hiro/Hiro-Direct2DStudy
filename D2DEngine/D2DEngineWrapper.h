@@ -14,6 +14,7 @@ public:
     void BeginDraw();
     void Clear(const D2D1::ColorF& color);
     void DrawBitmapForTransform(ID2D1Bitmap1* bitmap, TransformComponent& transform, float opacity, const D2D1_RECT_F* srcRect, bool isUI);
+    void DrawBitmapFixed(ID2D1Bitmap1* bitmap, TransformComponent& transform, float opacity, const D2D1_RECT_F* srcRect, bool isUI);
     void DrawTextForTransform(const wchar_t* str, IDWriteTextFormat* textformat, float fontsize, D2D1::ColorF& color, TransformComponent& transform);
     //void DrawBitmapForMatrix(ID2D1Bitmap1* bitmap, D2D1::Matrix3x2F& matrix);
     void DrawRect(float left, float top, float right, float bottom, D2D1::ColorF color);
@@ -42,8 +43,8 @@ public:
     ComPtr<IDXGIDevice3> m_dxgiDevice;
 
     // 창 크기
-    UINT            m_Width = 1920;     // 추후에 변경 가능하도록 하는거 고려? (후순위)
-    UINT            m_Height = 1080;
+    UINT            m_ClientWidth = 1920;     // 추후에 변경 가능하도록 하는거 고려? (후순위)
+    UINT            m_ClientHeight = 1080;
     HWND            m_hwnd = nullptr;
 private:
     bool m_initialized = false;

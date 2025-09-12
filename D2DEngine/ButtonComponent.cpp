@@ -9,8 +9,8 @@ void ButtonComponent::CreateButton(GameObject* owner, std::shared_ptr<BitmapReso
 	owner->SetUI(true);
 	TransformComponent* buttonTransform = owner->AddComponent<TransformComponent>();
 	buttonTransform->SetTranslation(
-		startPosX + width * 0.5f - D2DEngineWrapper::GetInstance().m_Width / 2,
-		-startPosY - height * 0.5f + D2DEngineWrapper::GetInstance().m_Height / 2);
+		startPosX + width * 0.5f - D2DEngineWrapper::GetInstance().m_ClientWidth / 2,
+		-startPosY - height * 0.5f + D2DEngineWrapper::GetInstance().m_ClientHeight / 2);
 	buttonTransform->SetScale(width / m_button->GetSize().width, height / m_button->GetSize().height);
 	SpriteRenderComponent* buttonSprite = owner->AddComponent<SpriteRenderComponent>();
 	buttonSprite->SetBitmap(bitmap);

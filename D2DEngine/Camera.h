@@ -25,6 +25,6 @@ private:
 
 	POINT m_prevMousePos;
 	HWND m_hWnd = D2DEngineWrapper::GetInstance().m_hwnd;
-	int m_Width = D2DEngineWrapper::GetInstance().m_Width;
-	int m_Height = D2DEngineWrapper::GetInstance().m_Height;
+	int m_Width = D2DEngineWrapper::GetInstance().m_ClientWidth;
+	int m_Height = D2DEngineWrapper::GetInstance().m_ClientHeight;
 };
