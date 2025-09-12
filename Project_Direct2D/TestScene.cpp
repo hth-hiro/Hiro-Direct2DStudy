@@ -18,7 +18,7 @@
 
 void TestScene::Enter()
 {
-	SetBGColor(D2D1::ColorF::Blue);
+	SetBGColor(EColor::LightBlue);
 
 	Camera::GetInstance().Reset();
 	

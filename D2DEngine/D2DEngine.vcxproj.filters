@@ -228,6 +228,9 @@
     <ClInclude Include="AudioManager.h">
       <Filter>Managers\Audio</Filter>
     </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Systems\Util</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Component.cpp">

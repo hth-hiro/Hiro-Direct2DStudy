@@ -42,7 +42,7 @@ public:
     ComPtr<IDXGIDevice3> m_dxgiDevice;
 
     // 창 크기
-    UINT            m_Width = 1920;
+    UINT            m_Width = 1920;     // 추후에 변경 가능하도록 하는거 고려? (후순위)
     UINT            m_Height = 1080;
     HWND            m_hwnd = nullptr;
 private:
