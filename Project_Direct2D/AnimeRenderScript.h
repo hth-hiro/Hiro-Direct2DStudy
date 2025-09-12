@@ -30,7 +30,7 @@ public:
 		tr->SetScale(2.0f, 2.0f);
 
 		auto* sprite = owner->GetComponent<SpriteRenderComponent>();
-		auto bitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Girl.png");
+ 		auto bitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Girl.png");
 		sprite->SetBitmap(bitmap);
 
 		m_animator = owner->GetComponent<AnimatorComponent>();

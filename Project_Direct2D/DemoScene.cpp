@@ -48,7 +48,7 @@ DynamicComponent를 통해 물리와 중력을 추가하였고,
 
 void DemoScene::Enter()
 {
-	SetBGColor(D2D1::ColorF::White);
+	SetBGColor(EColor::White);
 
 	Camera::GetInstance().Reset();
 	//D2DEngineWrapper::GetInstance().matCameraInv = Camera::GetInstance().m_CameraTransform.ToMatrix();

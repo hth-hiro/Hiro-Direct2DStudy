@@ -25,7 +25,7 @@
 
 void PlayScene::Enter()
 {
-	SetBGColor(D2D1::ColorF::Black);
+	SetBGColor(EColor::Black);
 	ObjectHandleTable::Create();
 
 	Camera::GetInstance().Reset();
