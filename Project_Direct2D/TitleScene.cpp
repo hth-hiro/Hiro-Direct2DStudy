@@ -18,7 +18,7 @@
 
 void TitleScene::Enter()
 {
-	SetBGColor(D2D1::ColorF::White);
+	SetBGColor(EColor::White);
 
 	Camera::GetInstance().Reset();
 	

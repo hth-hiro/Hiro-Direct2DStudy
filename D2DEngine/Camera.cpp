@@ -13,8 +13,8 @@ void Camera::Reset()
 	m_CameraTransform.Reset();
 	m_prevMousePos = InputSystem::GetInstance().GetMousePosition();
 
-	//D2DEngineWrapper::GetInstance().matCameraInv = Camera::GetInstance().m_CameraTransform.ToMatrix();
-	//D2DEngineWrapper::GetInstance().matCameraInv.Invert();
+	D2DEngineWrapper::GetInstance().matCameraInv = Camera::GetInstance().m_CameraTransform.ToMatrix();
+	D2DEngineWrapper::GetInstance().matCameraInv.Invert();
 }
 
 void Camera::Update()
