@@ -3,6 +3,7 @@
 #include "GameObject.h"
 #include "D2DEngineWrapper.h"
 #include <d2d1.h>
+#include "Define.h"
 
 class GameObject;
 class Scene
@@ -51,6 +52,7 @@ public:
 	const std::vector<GameObject*>& GetAllObjects() const { return m_Objects; }
 
 	void SetBGColor(const D2D1::ColorF& color) { m_BGColor = color; }
+	void SetBGColor(EColor color) { m_BGColor = ToColorF(color); }
 	D2D1::ColorF GetBGColor() { return m_BGColor; }
 
 	void Clear();
