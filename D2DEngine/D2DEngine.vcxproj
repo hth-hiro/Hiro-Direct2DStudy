@@ -158,6 +158,7 @@
     <ClInclude Include="Define.h" />
     <ClInclude Include="DynamicComponent.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="HealthComponent.h" />
     <ClInclude Include="ColliderDebugRenderer.h" />
@@ -205,6 +206,7 @@
     <ClCompile Include="D2DEngine.cpp" />
     <ClCompile Include="D2DEngineWrapper.cpp" />
     <ClCompile Include="DynamicComponent.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="HealthComponent.cpp" />
     <ClCompile Include="ColliderDebugRenderer.cpp" />
     <ClCompile Include="InputComponent.cpp" />

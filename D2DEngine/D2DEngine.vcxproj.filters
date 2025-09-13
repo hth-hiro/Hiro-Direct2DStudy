@@ -85,6 +85,9 @@
     <Filter Include="Components\Collider">
       <UniqueIdentifier>{f80cedff-5c22-4cb2-bee8-c504361a1d50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Managers\Game">
+      <UniqueIdentifier>{5dafa3b3-eb08-4f92-bf57-8120facf93fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Object.h">
@@ -231,6 +234,9 @@
     <ClInclude Include="Define.h">
       <Filter>Systems\Util</Filter>
     </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Managers\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Component.cpp">
@@ -349,6 +355,9 @@
     </ClCompile>
     <ClCompile Include="ColliderSystem.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Managers\Game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

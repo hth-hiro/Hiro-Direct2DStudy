@@ -3,6 +3,8 @@ C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\BookAnimScrip
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\DemoScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\DemoScene.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\DemoTextScript.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\DemoTextScript.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\FireZoneScript.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\FireZoneScript.obj
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\GameClearScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\GameClearScene.obj
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\GameOverScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\GameOverScene.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\IdleState.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\IdleState.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\AnimeRenderScript.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\AnimeRenderScript.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\AnimeScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\AnimeScene.obj
@@ -10,6 +12,7 @@ C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\DemoGameApp.c
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\KinematicScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\KinematicScene.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\KinematicTextScript.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\KinematicTextScript.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\main.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\main.obj
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\OptionScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\OptionScene.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\PlayScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\PlayScene.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\TestScene.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\TestScene.obj
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\Throw.cpp;C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\Project_Direct2D\x64\Debug\Throw.obj
