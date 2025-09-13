@@ -137,6 +137,8 @@
     <ClCompile Include="DemoScene.cpp" />
     <ClCompile Include="DemoTextScript.cpp" />
     <ClCompile Include="FireZoneScript.cpp" />
+    <ClCompile Include="GameClearScene.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
     <ClCompile Include="IdleState.cpp" />
     <ClCompile Include="AnimeRenderScript.cpp" />
     <ClCompile Include="AnimeScene.cpp" />
@@ -144,10 +146,12 @@
     <ClCompile Include="KinematicScene.cpp" />
     <ClCompile Include="KinematicTextScript.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OptionScene.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="Throw.cpp" />
     <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TutorialScene.cpp" />
     <ClCompile Include="UI_Button.cpp" />
     <ClCompile Include="UI_Text.cpp" />
     <ClCompile Include="WalkState.cpp" />
@@ -160,6 +164,8 @@
     <ClInclude Include="DemoScene.h" />
     <ClInclude Include="DemoTextScript.h" />
     <ClInclude Include="FireZoneScript.h" />
+    <ClInclude Include="GameClearScene.h" />
+    <ClInclude Include="GameOverScene.h" />
     <ClInclude Include="IdleState.h" />
     <ClInclude Include="AnimeInputScript.h" />
     <ClInclude Include="AnimeRenderScript.h" />
@@ -168,6 +174,7 @@
     <ClInclude Include="DemoGameApp.h" />
     <ClInclude Include="KinematicScene.h" />
     <ClInclude Include="KinematicTextScript.h" />
+    <ClInclude Include="OptionScene.h" />
     <ClInclude Include="PlayBackgroundScript.h" />
     <ClInclude Include="PlayerKinematicScript.h" />
     <ClInclude Include="PlayerMovementScript.h" />
@@ -186,6 +193,7 @@
     <ClInclude Include="TitleInputScript.h" />
     <ClInclude Include="TitleScene.h" />
     <ClInclude Include="TitleTextScript.h" />
+    <ClInclude Include="TutorialScene.h" />
     <ClInclude Include="UI_Button.h" />
     <ClInclude Include="UI_Text.h" />
     <ClInclude Include="WalkState.h" />
