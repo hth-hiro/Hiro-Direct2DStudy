@@ -52,8 +52,8 @@ private:
     HRESULT         hr;
     HINSTANCE		m_hInstance;
 
-    std::wstring	m_WindowName = L"D2DEngine";
-    std::wstring	m_TitleName = L"한글 테스트";     // 이게 창 이름임
+    std::wstring	m_WindowName = L"Atherion";
+    std::wstring	m_TitleName = L"Atherion";     // 이게 창 이름임, 게임 이름으로 함
     std::string		m_ModulePath;
     std::string		m_WorkingPath;
 
