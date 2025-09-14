@@ -35,4 +35,6 @@ public:
 	void Register(InputComponent* comp);
 	void Unregister(InputComponent* comp);
 
+private:
+	float m_sleepTick = 0.0f;
 };
