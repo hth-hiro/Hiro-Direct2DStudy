@@ -55,6 +55,9 @@ void GameManager::SaveGame(const std::string& path)
 	j["Level"] = m_Level;
 	j["Coins"] = m_Coins;
 
+	j["TotalTime"] = Time::GetInstance().GetTotalTime();
+	j["PlayTime"] = Time::GetInstance().GetPlayTime();
+
 	// 아이템은 보류
 	//j["Items"] = json::array();
 
@@ -80,6 +83,12 @@ void GameManager::LoadGame(const std::string& path)
 
 	m_Level = j.value("Level", 0);
 	m_Coins = j.value("Coins", 0);
+
+	float totalTime = j.value("TotalTime", 0.0f);
+	float playTime = j.value("PlayTime", 0.0f);
+
+	Time::GetInstance()->SetTotalTime(totalTime);
+	Time::GetInstance()->SetPlayTime(playTime);
 
 	m_SkillData.clear();
 	for (auto& skill : j["Skills"])

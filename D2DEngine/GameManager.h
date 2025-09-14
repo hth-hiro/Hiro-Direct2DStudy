@@ -1,6 +1,7 @@
 #pragma once
 #include "Singleton.h"
 #include "json.hpp"
+#include "Time.h"
 
 using json = nlohmann::json;
 

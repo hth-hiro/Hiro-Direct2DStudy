@@ -11,7 +11,12 @@ public:
 	void Update();
 
 	float GetDeltaTime();
-	float GetTotalTime();
+
+	float GetTotalTime();	// 창이 실행된 후~ 현재까지 시간(일시정지 포함)
+	float GetPlayTime() const { return playTime; }
+
+	void SetTotalTime(float time);
+	void SetPlayTime(float time);
 
 	void Pause() { m_isPaused = true; }
 	void Resume() { m_isPaused = false; }
@@ -26,9 +31,13 @@ private:
 	LARGE_INTEGER currentCounter;
 	LARGE_INTEGER initCounter;
 
-	float deltaTime;
+	float deltaTime = 0.0f;
+
+	float playTime = 0.0f;
+	float totalTime = 0.0f;
 
 	float m_timeScale = 1.0f;
 	bool m_isPaused = false;
+
 };
 
