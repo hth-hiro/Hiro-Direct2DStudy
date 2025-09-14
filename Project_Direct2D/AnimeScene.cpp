@@ -22,6 +22,7 @@
 
 /*-----Temp-----*/
 #include "ReturnButtonScript.h"
+#include "SceneChangeScript.h"
 
 void AnimeScene::Enter()
 {
@@ -34,6 +35,7 @@ void AnimeScene::Enter()
 	// Scene 안에서 키 입력을 담당
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<AnimeInputScript>();
+	input->AddComponent<SceneChangeScript>();
 
 	// Character_Girl
 	m_Player = CreateObject<GameObject>();

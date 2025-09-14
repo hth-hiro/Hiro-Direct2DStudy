@@ -38,6 +38,24 @@ public:
 			SceneManager::GetInstance().ChangeScene(5);
 		}
 
+		// Test
+		else if (InputSystem::GetInstance().IsKeyPressed('6'))
+		{
+			SceneManager::GetInstance().ChangeScene(6);
+		}
+		else if (InputSystem::GetInstance().IsKeyPressed('7'))
+		{
+			SceneManager::GetInstance().ChangeScene(7);
+		}
+		else if (InputSystem::GetInstance().IsKeyPressed('8'))
+		{
+			SceneManager::GetInstance().ChangeScene(8);
+		}
+		else if (InputSystem::GetInstance().IsKeyPressed('9'))
+		{
+			SceneManager::GetInstance().ChangeScene(9);
+		}
+
 		// 일시정지
 		if (InputSystem::GetInstance().IsKeyPressed(VK_ESCAPE))
 		{

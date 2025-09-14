@@ -36,6 +36,7 @@ C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.h(
   (소스 파일 '/Application.cpp'을(를) 컴파일하는 중)
   
   AudioComponent.cpp
+  AudioManager.cpp
   BitmapResource.cpp
   BoxColliderComponent.cpp
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
@@ -59,6 +60,12 @@ C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Camera.cpp(49,63): w
   ColliderComponent.cpp
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
   (소스 파일 '/ColliderComponent.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+  ColliderDebugRenderer.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/ColliderDebugRenderer.cpp'을(를) 컴파일하는 중)
       C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
       이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
   
@@ -132,16 +139,10 @@ C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): 
       C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
       이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
   
-  ColliderDebugRenderer.cpp
-C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
-  (소스 파일 '/ColliderDebugRenderer.cpp'을(를) 컴파일하는 중)
-      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
-      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
-  
   InputComponent.cpp
-  InputSystem.cpp
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  InputSystem.cpp
   KinematicComponent.cpp
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
   (소스 파일 '/KinematicComponent.cpp'을(를) 컴파일하는 중)
@@ -169,7 +170,6 @@ C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): 
   ScriptComponent.cpp
   ScriptSystem.cpp
   Singleton.cpp
-  AudioManager.cpp
   SpriteLoader.cpp
   SpriteRenderComponent.cpp
 C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.

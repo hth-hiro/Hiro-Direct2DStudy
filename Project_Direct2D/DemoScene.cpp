@@ -45,6 +45,7 @@ DynamicComponent를 통해 물리와 중력을 추가하였고,
 
 /*-----Temp-----*/
 #include "ReturnButtonScript.h"
+#include "SceneChangeScript.h"
 
 void DemoScene::Enter()
 {
@@ -58,6 +59,7 @@ void DemoScene::Enter()
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<ColliderDebugRenderer>();
 	input->AddComponent<DemoInputScript>();
+	input->AddComponent<SceneChangeScript>();
 
 	// Character_Girl
 	m_Player = CreateObject<GameObject>();

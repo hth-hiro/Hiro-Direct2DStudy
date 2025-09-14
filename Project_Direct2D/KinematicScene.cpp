@@ -41,6 +41,7 @@ KinematicComponent를 통해 물리를 추가하였고,
 
 /*-----Temp-----*/
 #include "ReturnButtonScript.h"
+#include "SceneChangeScript.h"
 
 void KinematicScene::Enter()
 {
@@ -53,6 +54,7 @@ void KinematicScene::Enter()
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<ColliderDebugRenderer>();
 	input->AddComponent<DemoInputScript>();
+	input->AddComponent<SceneChangeScript>();
 
 	// Character_Girl
 	m_Player = CreateObject<GameObject>();

@@ -19,6 +19,7 @@
 #include "../D2DEngine/BoxColliderComponent.h"
 #include "../D2DEngine/ColliderDebugRenderer.h"
 #include "../D2DEngine/DynamicComponent.h"
+#include "SceneChangeScript.h"
 
 void TestScene::Enter()
 {
@@ -28,6 +29,9 @@ void TestScene::Enter()
 	
 	auto background = CreateObject<GameObject>();
 	background->AddComponent<SpriteRenderComponent>();
+
+	GameObject* input = CreateObject<GameObject>();
+	input->AddComponent<SceneChangeScript>();
 
 	// Character_Girl
 	auto player = CreateObject<GameObject>();

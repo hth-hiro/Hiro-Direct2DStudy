@@ -15,6 +15,7 @@
 
 /*-----GameObjects-----*/
 #include "UI_Text.h"
+#include "SceneChangeScript.h"
 
 void TitleScene::Enter()
 {
@@ -30,6 +31,7 @@ void TitleScene::Enter()
 	// SceneInput
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<TitleInputScript>();
+	input->AddComponent<SceneChangeScript>();
 
 	// UI_Text
 	GameObject* text = CreateObject<UI_Text>();
