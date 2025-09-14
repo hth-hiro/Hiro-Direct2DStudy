@@ -9,7 +9,7 @@ GameObject* obj;
 
 void Application::Initialize()
 {
-	CoInitialize(nullptr);
+	hr = CoInitialize(nullptr);
 	m_D2DEngineWrapper.Initialize();
 	AudioManager::GetInstance().Initialize();
 	Time::GetInstance().Initialize();
