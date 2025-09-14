@@ -114,6 +114,13 @@
       <AdditionalDependencies>dwrite.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)core\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>if exist "$(SolutionDir)External\fmod.dll" copy /y "$(SolutionDir)External\fmod.dll" "$(TargetDir)"
+if not exist "$(SolutionDir)x64\Resource" mkdir "$(SolutionDir)x64\Resource"
+pushd "$(SolutionDir)Resource"
+xcopy /y /e /i * "$(SolutionDir)x64\Resource\"
+popd</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
