@@ -11,7 +11,17 @@ void Time::Initialize()
 void Time::Update()
 {
 	QueryPerformanceCounter(&currentCounter);
-	deltaTime = static_cast<float>(currentCounter.QuadPart - prevCounter.QuadPart) / frequency.QuadPart;
+
+	if (!m_isPaused)
+	{
+		deltaTime = static_cast<float>(currentCounter.QuadPart - prevCounter.QuadPart) / frequency.QuadPart;
+		deltaTime *= m_timeScale;
+	}
+	else
+	{
+		deltaTime = 0.0f;
+	}
+
 	prevCounter = currentCounter;
 }
 
