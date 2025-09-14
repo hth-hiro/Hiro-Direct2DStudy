@@ -148,6 +148,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OptionScene.cpp" />
     <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="SceneChangeScript.cpp" />
     <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="Throw.cpp" />
     <ClCompile Include="TitleScene.cpp" />
@@ -186,6 +187,7 @@
     <ClInclude Include="PlayTextScript.h" />
     <ClInclude Include="Project_Direct2D.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="SceneChangeScript.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TestScene.h" />
     <ClInclude Include="Throw.h" />

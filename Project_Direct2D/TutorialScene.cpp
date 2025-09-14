@@ -1,15 +1,19 @@
 #include "TutorialScene.h"
 #include "../D2DEngine/SpriteRenderComponent.h"
 #include "TitleBackgroundScript.h"
+#include "SceneChangeScript.h"
 
 void TutorialScene::Enter()
 {
-	SetBGColor(EColor::White);
+	SetBGColor(EColor::Mint);
 
 	// Background
 	GameObject* background = CreateObject<GameObject>();
 	background->AddComponent<SpriteRenderComponent>();
 	background->AddComponent<TitleBackgroundScript>();
+
+	GameObject* input = CreateObject<GameObject>();
+	input->AddComponent<SceneChangeScript>();
 
 	Scene::Enter();
 }

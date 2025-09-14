@@ -11,12 +11,13 @@ class TitleInputScript : public ScriptComponent
 public:
 	void Update() override
 	{
-		if (InputSystem::GetInstance().IsKeyPressed(VK_SPACE) ||
-			InputSystem::GetInstance().IsKeyPressed(VK_RETURN))
-		{
+		// Debug
+		if (InputSystem::GetInstance().IsKeyPressed('1'))
+		{ 
 			SceneManager::GetInstance().ChangeScene(1);
 		}
 
+		// 일시정지
 		if (InputSystem::GetInstance().IsKeyPressed(VK_ESCAPE))
 		{
 			//D2DEngineWrapper::GetInstance().m_Quit = true;

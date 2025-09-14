@@ -22,6 +22,7 @@
 
 /*-----Temp-----*/
 #include "ReturnButtonScript.h"
+#include "SceneChangeScript.h"
 
 void PlayScene::Enter()
 {
@@ -42,6 +43,7 @@ void PlayScene::Enter()
 	// SceneInput
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<PlayInputScript>();
+	input->AddComponent<SceneChangeScript>();
 
 	// UI_Text
 	GameObject* text = CreateObject<UI_Text>();
