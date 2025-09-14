@@ -1,2 +1,176 @@
-﻿  GameManager.cpp
-  D2DEngine.vcxproj -> C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.lib
+﻿  AnimationBaseState.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimationBaseState.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AnimationBaseState.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimationBaseState.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AnimationBaseState.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/AnimationBaseState.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.h(41,51): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/AnimationBaseState.cpp'을(를) 컴파일하는 중)
+  
+  AnimationController.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimationController.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AnimationController.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimationController.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AnimationController.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/AnimationController.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.h(41,51): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/AnimationController.cpp'을(를) 컴파일하는 중)
+  
+  AnimatorComponent.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AnimatorComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AnimatorComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/AnimatorComponent.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.h(41,51): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/AnimatorComponent.cpp'을(를) 컴파일하는 중)
+  
+  Application.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Application.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/Application.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Application.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/Application.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/Application.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AnimatorComponent.h(41,51): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Application.cpp'을(를) 컴파일하는 중)
+  
+  AudioComponent.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AudioComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AudioComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AudioComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AudioComponent.cpp'을(를) 컴파일하는 중)
+  
+  AudioManager.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AudioManager.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AudioManager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\AudioManager.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/AudioManager.cpp'을(를) 컴파일하는 중)
+  
+  BitmapResource.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\BitmapResource.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/BitmapResource.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\BitmapResource.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/BitmapResource.cpp'을(를) 컴파일하는 중)
+  
+  BoxColliderComponent.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\BoxColliderComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/BoxColliderComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\BoxColliderComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/BoxColliderComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/BoxColliderComponent.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+  ButtonComponent.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ButtonComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ButtonComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ButtonComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ButtonComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/ButtonComponent.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+  Camera.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Camera.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/Camera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Camera.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/Camera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Camera.cpp(49,80): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Camera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Camera.cpp(49,63): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Camera.cpp'을(를) 컴파일하는 중)
+  
+  ColliderComponent.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ColliderComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ColliderComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ColliderComponent.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ColliderComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/ColliderComponent.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+  ColliderDebugRenderer.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ColliderDebugRenderer.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ColliderDebugRenderer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ColliderDebugRenderer.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ColliderDebugRenderer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/ColliderDebugRenderer.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+  ColliderSystem.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ColliderSystem.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ColliderSystem.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\ColliderSystem.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/ColliderSystem.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(76,3): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  (소스 파일 '/ColliderSystem.cpp'을(를) 컴파일하는 중)
+      C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameObject.h(66,5):
+      이 진단은 컴파일러 생성 함수 'T *GameObject::AddComponent(Args ...)'에서 수행되었습니다.
+  
+  Component.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Component.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/Component.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\Component.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/Component.cpp'을(를) 컴파일하는 중)
+  
+  D2DEngine.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\D2DEngine.cpp(4,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/D2DEngine.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\D2DEngine.cpp(4,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/D2DEngine.cpp'을(를) 컴파일하는 중)
+  
+  GameManager.cpp
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameManager.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.pdb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 pdb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/GameManager.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\D2DEngine\GameManager.cpp(1,10): error C2859: C:\Users\User\Documents\GitHub\Hiro-Direct2DStudy\x64\Debug\D2DEngine.idb은(는) 이 미리 컴파일된 헤더가 만들어졌을 때 사용된 idb 파일이 아닙니다. 미리 컴파일된 헤더를 다시 만드십시오.
+  (소스 파일 '/GameManager.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
