@@ -38,6 +38,9 @@ struct ItemData
 class GameManager : public Singleton<GameManager>
 {
 public:
+	GameManager() = default;
+	~GameManager() = default;
+
 	void Initialize();
 	void Update();
 
@@ -67,10 +70,8 @@ public:
 	void SaveGame(const std::string& path);
 	void LoadGame(const std::string& path);
 
-private:
-	GameManager() = default;
-	~GameManager() = default;
 
+private:
 	// PlayerData
 	int m_Level = 0;
 	int m_Coins = 0;
@@ -78,5 +79,8 @@ private:
 
 	std::vector<ItemData>  m_Items;
 	std::vector<SkillData>  m_SkillData;
+
+	char m_key = 0x5A;
+	std::string XOREncryptDecrypt(const std::string& data, char key);
 };
 

@@ -65,21 +65,29 @@ void GameManager::SaveGame(const std::string& path)
 	for (auto& skillData : m_SkillData)
 		j["Skills"].push_back({ {"skill", static_cast<int>(skillData.skill)},{"level", skillData.level} });
 
-	std::ofstream file(path);
+	std::string jsonString = j.dump(4);
+
+	std::string encrypted = XOREncryptDecrypt(jsonString, m_key);
+	
+	std::ofstream file(path, std::ios::binary);
 	if (file.is_open())
 	{
-		file << j.dump(4);
+		file.write(encrypted.c_str(), encrypted.size());
 	}
 }
 
 void GameManager::LoadGame(const std::string& path)
 {
-	std::ifstream file(path);
-
+	std::ifstream file(path, std::ios::binary);
 	if (!file.is_open()) return;
 
-	json j;
-	file >> j;
+	std::string encrypted((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+
+	file.close();
+
+	std::string decrypted = XOREncryptDecrypt(encrypted, m_key);
+
+	json j = json::parse(decrypted);
 
 	m_Level = j.value("Level", 0);
 	m_Coins = j.value("Coins", 0);
@@ -87,10 +95,23 @@ void GameManager::LoadGame(const std::string& path)
 	float totalTime = j.value("TotalTime", 0.0f);
 	float playTime = j.value("PlayTime", 0.0f);
 
-	Time::GetInstance()->SetTotalTime(totalTime);
-	Time::GetInstance()->SetPlayTime(playTime);
+	Time::GetInstance().SetTotalTime(totalTime);
+	Time::GetInstance().SetPlayTime(playTime);
 
 	m_SkillData.clear();
 	for (auto& skill : j["Skills"])
 		m_SkillData.push_back({ static_cast<Skill>(skill["skill"].get<int>()), skill["level"].get<int>() });
+}
+
+// 암호화 & 복호화
+std::string GameManager::XOREncryptDecrypt(const std::string& data, char key)
+{
+	std::string result = data;
+
+	for (size_t i = 0; i < result.size(); i++)
+	{
+		result[i] ^= key;
+	}
+
+	return result;
 }
