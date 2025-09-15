@@ -17,6 +17,3 @@ Release/
 *.dll
 *.pdb
 *.idb
-
-# 예외
-!External/fmod.dll

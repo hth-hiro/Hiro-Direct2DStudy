@@ -106,21 +106,24 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)External\core\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>dwrite.lib;fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)core\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)External\core\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PreBuildEvent>
-      <Command>if exist "$(SolutionDir)External\fmod.dll" copy /y "$(SolutionDir)External\fmod.dll" "$(TargetDir)"
-if not exist "$(SolutionDir)x64\Resource" mkdir "$(SolutionDir)x64\Resource"
-pushd "$(SolutionDir)Resource"
-xcopy /y /e /i * "$(SolutionDir)x64\Resource\"
-popd</Command>
+      <Command>:: External 복사
+xcopy /y /e /i "$(SolutionDir)External" "$(TargetDir)External\"
+
+:: Resource 복사
+xcopy /y /e /i "$(SolutionDir)Resource" "$(SolutionDir)x64\Resource\"</Command>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>if exist "$(SolutionDir)External\core\lib\x64\fmod.dll" copy /y "$(SolutionDir)External\core\lib\x64\fmod.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
