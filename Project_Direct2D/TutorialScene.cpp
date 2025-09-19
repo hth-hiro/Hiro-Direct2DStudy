@@ -12,6 +12,7 @@ void TutorialScene::Enter()
 	background->AddComponent<SpriteRenderComponent>();
 	background->AddComponent<TitleBackgroundScript>();
 
+	// SceneInput
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<SceneChangeScript>();
 

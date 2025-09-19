@@ -9,6 +9,7 @@ void OptionScene::Enter()
 
 	Camera::GetInstance().Reset();
 
+	// SceneInput
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<SceneChangeScript>();
 
