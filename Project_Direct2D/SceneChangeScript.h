@@ -16,27 +16,27 @@ public:
 		// Debug
 		if (InputSystem::GetInstance().IsKeyPressed('0'))
 		{
-			SceneManager::GetInstance().ChangeScene(0);
+			SceneManager::GetInstance().ChangeScene(EScene::Title);
 		}
 		else if (InputSystem::GetInstance().IsKeyPressed('1'))
 		{
-			SceneManager::GetInstance().ChangeScene(1);
+			SceneManager::GetInstance().ChangeScene(EScene::Tutorial);
 		}
 		else if (InputSystem::GetInstance().IsKeyPressed('2'))
 		{
-			SceneManager::GetInstance().ChangeScene(2);
+			SceneManager::GetInstance().ChangeScene(EScene::Play);
 		}
-		else if (InputSystem::GetInstance().IsKeyPressed('3'))
+		/*else if (InputSystem::GetInstance().IsKeyPressed('3'))
 		{
-			SceneManager::GetInstance().ChangeScene(3);
-		}
+			SceneManager::GetInstance().ChangeScene(3);				// 옵션씬 강제 이동 비활성화
+		}*/
 		else if (InputSystem::GetInstance().IsKeyPressed('4'))
 		{
-			SceneManager::GetInstance().ChangeScene(4);
+			SceneManager::GetInstance().ChangeScene(EScene::GameClear);
 		}
 		else if (InputSystem::GetInstance().IsKeyPressed('5'))
 		{
-			SceneManager::GetInstance().ChangeScene(5);
+			SceneManager::GetInstance().ChangeScene(EScene::GameOver);
 		}
 
 		// Test
@@ -65,7 +65,7 @@ public:
 			{
 				Time::GetInstance().Pause();
 				std::cout << "[Debug] 일시정지" << std::endl;
-				SceneManager::GetInstance().ChangeScene(3);
+				SceneManager::GetInstance().ChangeScene(EScene::Option);
 			}
 			else
 			{

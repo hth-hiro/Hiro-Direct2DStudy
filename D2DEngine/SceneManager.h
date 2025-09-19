@@ -21,6 +21,7 @@ public:
 
 	// Set
 	void ChangeScene(size_t index);
+	void ChangeScene(EScene scene);
 
 	int GetPrevSceneIndex()
 	{

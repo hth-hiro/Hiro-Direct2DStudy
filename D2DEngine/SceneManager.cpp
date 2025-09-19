@@ -57,3 +57,17 @@ void SceneManager::ChangeScene(size_t index)
 
 	m_nextScene = m_vScenes[index];
 }
+
+void SceneManager::ChangeScene(EScene scene)
+{
+	int index = static_cast<size_t>(scene);
+
+	if (index >= m_vScenes.size())
+		return;
+
+	g_PendingSceneClear = true;
+
+	m_prevScene = m_currentScene;
+
+	m_nextScene = m_vScenes[index];
+}

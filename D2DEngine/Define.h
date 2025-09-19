@@ -1,6 +1,10 @@
 #pragma once
 #include <d2d1.h>
 
+// Define.h
+
+enum class EScene { Title, Tutorial, Play, Option, GameClear, GameOver };
+
 enum class EColor
 {
     White,
