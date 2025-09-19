@@ -53,5 +53,7 @@ void SceneManager::ChangeScene(size_t index)
 
 	g_PendingSceneClear = true;
 
+	m_prevScene = m_currentScene;
+
 	m_nextScene = m_vScenes[index];
 }

@@ -7,6 +7,7 @@
 #include "../D2DEngine/Time.h"
 
 // 전역적으로 공통적으로 사용하는 디버그용 씬 전환 스크립트
+// 나중에는 디버그용이 아닌 전역적으로사용하는 키 입력에 사용하도록 할듯(예를들어 ESC같은거)
 class SceneChangeScript : public ScriptComponent
 {
 public:
@@ -64,11 +65,13 @@ public:
 			{
 				Time::GetInstance().Pause();
 				std::cout << "[Debug] 일시정지" << std::endl;
+				SceneManager::GetInstance().ChangeScene(3);
 			}
 			else
 			{
 				Time::GetInstance().Resume();
 				std::cout << "[Debug] 일시정지 해제" << std::endl;
+				SceneManager::GetInstance().ChangeScene(SceneManager::GetInstance().GetPrevSceneIndex());
 			}
 		}
 
