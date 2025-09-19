@@ -18,12 +18,12 @@ void DemoGameApp::Initialize()
 	__super::Initialize();
 
 	// real gameProject
-	SceneManager::GetInstance().CreateScene<TitleScene>(L"TitleScene");			// 0
-	SceneManager::GetInstance().CreateScene<TutorialScene>(L"TutorialScene");	// 1
-	SceneManager::GetInstance().CreateScene<PlayScene>(L"PlayScene");			// 2
-	SceneManager::GetInstance().CreateScene<OptionScene>(L"OptionScene");		// 3
-	SceneManager::GetInstance().CreateScene<GameClearScene>(L"GameClearScene");	// 4
-	SceneManager::GetInstance().CreateScene<GameOverScene>(L"GameOverScene");	// 5
+	SceneManager::GetInstance().CreateScene<TitleScene>(L"TitleScene");			
+	SceneManager::GetInstance().CreateScene<TutorialScene>(L"TutorialScene");	
+	SceneManager::GetInstance().CreateScene<PlayScene>(L"PlayScene");			
+	SceneManager::GetInstance().CreateScene<OptionScene>(L"OptionScene");		
+	SceneManager::GetInstance().CreateScene<GameClearScene>(L"GameClearScene");	
+	SceneManager::GetInstance().CreateScene<GameOverScene>(L"GameOverScene");	
 
 	// 이 부분은 테스트씬 (6 ~ 9)
 	SceneManager::GetInstance().CreateScene<AnimeScene>(L"Anime");
@@ -33,7 +33,7 @@ void DemoGameApp::Initialize()
 
 	//SceneManager::GetInstance().CreateScene<>
 
-	SceneManager::GetInstance().ChangeScene(0);
+	SceneManager::GetInstance().ChangeScene(EScene::Title);
 }
 
 void DemoGameApp::Uninitialize()
