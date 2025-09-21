@@ -15,6 +15,7 @@ private:
 	TransformComponent* m_TransformComponent = nullptr;
 	bool m_isUI = false;
 	std::string m_Name;
+	Scene* m_Scene = nullptr;
 
 public:
 	GameObject()
@@ -137,6 +138,9 @@ public:
 
 	void SetUI(bool value) { m_isUI = value; }
 	bool isUI() const { return m_isUI; }
+
+	void SetScene(Scene* scene) { m_Scene = scene; }
+	Scene* GetScene() const { return m_Scene; }
 
 	const std::string& GetName() const { return m_Name; }
 	void SetName(const std::string& name) { m_Name = name; }

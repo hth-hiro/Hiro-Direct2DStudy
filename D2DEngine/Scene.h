@@ -29,6 +29,7 @@ public:
 	T* CreateObject()
 	{
 		T* pObject = new T();
+		pObject->SetScene(this);
 		tmpObj.push_back(pObject);
 		return pObject;
 	}
@@ -37,6 +38,7 @@ public:
 	T* CreateObjectByName(std::wstring obj)
 	{
 		T* pObject = new T();
+		pObject->SetScene(this);
 		tmpObj.push_back(pObject);
 		return pObject;
 	}
