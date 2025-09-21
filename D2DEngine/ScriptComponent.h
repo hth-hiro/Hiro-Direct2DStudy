@@ -10,6 +10,7 @@ public:
 	ScriptComponent()
 	{
 		ScriptSystem::GetInstance().Register(this);
+
 	}
 	~ScriptComponent()
 	{

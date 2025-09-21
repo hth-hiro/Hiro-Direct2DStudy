@@ -4,6 +4,7 @@
 #include "../D2DEngine/ResourceManager.h"
 #include "../D2DEngine/SpriteRenderComponent.h"
 #include "../D2DEngine/TransformComponent.h"
+#include "../D2DEngine/Scene.h"
 
 class TitleBackgroundScript : public ScriptComponent
 {

@@ -13,6 +13,7 @@
 #include "TitleInputScript.h"
 #include "TitleBackgroundScript.h"
 #include "TitleTextScript.h"
+#include "TitleButtonScript.h"
 
 /*-----GameObjects-----*/
 #include "UI_Text.h"
@@ -30,7 +31,8 @@ void TitleScene::Enter()
 	background->AddComponent<TitleBackgroundScript>();
 
 	// UI_Button
-	// UI관련 컴포넌트 제작예정
+	GameObject* UIButton = CreateObject<GameObject>();
+	UIButton->AddComponent<TitleButtonScript>();
 
 	// SceneInput
 	GameObject* input = CreateObject<GameObject>();

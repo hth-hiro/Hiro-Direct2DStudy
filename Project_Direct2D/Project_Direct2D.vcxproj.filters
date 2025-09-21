@@ -132,11 +132,14 @@
     <ClCompile Include="GameClearScene.cpp">
       <Filter>소스 파일\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="GameOverScene.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="SceneChangeScript.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleButtonScript.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>소스 파일\Scenes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -257,11 +260,14 @@
     <ClInclude Include="GameClearScene.h">
       <Filter>헤더 파일\Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="GameOverScene.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="SceneChangeScript.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>헤더 파일\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleButtonScript.h">
+      <Filter>Scripts\01.TitleScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -161,6 +161,7 @@ xcopy /y /e /i "$(SolutionDir)Resource" "$(SolutionDir)x64\Resource\"</Command>
     <ClCompile Include="SceneChangeScript.cpp" />
     <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="Throw.cpp" />
+    <ClCompile Include="TitleButtonScript.cpp" />
     <ClCompile Include="TitleScene.cpp" />
     <ClCompile Include="TutorialScene.cpp" />
     <ClCompile Include="UI_Button.cpp" />
@@ -202,6 +203,7 @@ xcopy /y /e /i "$(SolutionDir)Resource" "$(SolutionDir)x64\Resource\"</Command>
     <ClInclude Include="TestScene.h" />
     <ClInclude Include="Throw.h" />
     <ClInclude Include="TitleBackgroundScript.h" />
+    <ClInclude Include="TitleButtonScript.h" />
     <ClInclude Include="TitleInputScript.h" />
     <ClInclude Include="TitleScene.h" />
     <ClInclude Include="TitleTextScript.h" />
