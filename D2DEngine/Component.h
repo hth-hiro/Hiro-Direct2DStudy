@@ -3,11 +3,13 @@
 #include "Object.h"
 
 class GameObject;
+class Scene;
 class Component : public Object
 {
 public:
 	virtual ~Component() = default;
 	GameObject* owner = nullptr;
+	Scene* scene = nullptr;
 
 	virtual void Awake() {}
 	virtual void Start() {}

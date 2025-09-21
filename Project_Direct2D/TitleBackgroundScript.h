@@ -10,9 +10,21 @@ class TitleBackgroundScript : public ScriptComponent
 public:
 	void Start() override
 	{
-		auto* sprite = owner->GetComponent<SpriteRenderComponent>();
-		auto bitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Background.webp");
-		sprite->SetBitmap(bitmap);
+		// Background
+		//auto* bgObj = scene->CreateObject<GameObject>();
+		//auto* bgSprite = bgObj->GetComponent<SpriteRenderComponent>();
+		//auto bgBitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Background.webp");
+		//bgSprite->SetBitmap(bgBitmap);
+
+		auto* bgSprite = owner->GetComponent<SpriteRenderComponent>();
+		auto bgBitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Background.webp");
+		bgSprite->SetBitmap(bgBitmap);
+
+		// Title Text
+		//auto* textObj = scene->CreateObject<GameObject>();
+		//auto* textSprite = owner->GetComponent<SpriteRenderComponent>();
+		//auto textBitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Background/Titletemp.webp");
+		//textSprite->SetBitmap(textBitmap);
 	}
 };
 

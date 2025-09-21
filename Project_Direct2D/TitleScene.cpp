@@ -23,12 +23,10 @@ void TitleScene::Enter()
 
 	Camera::GetInstance().Reset();
 	
-	// Background
+	// Background, Title Text(Sprite)
 	GameObject* background = CreateObject<GameObject>();
 	background->AddComponent<SpriteRenderComponent>();
 	background->AddComponent<TitleBackgroundScript>();
-
-	// Title Text(Sprite)
 
 	// UI_Button
 	// UI관련 컴포넌트 제작예정

@@ -8,6 +8,8 @@
 class Component;
 class GameObject : public Object
 {
+	friend class Scene;
+
 private:
 	std::vector<Component*> m_Components;
 	TransformComponent* m_TransformComponent = nullptr;
