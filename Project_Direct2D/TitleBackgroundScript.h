@@ -21,8 +21,11 @@ public:
 		// Title Text
 		auto* textObj = scene->CreateObject<GameObject>();
 		auto* textSprite = textObj->AddComponent<SpriteRenderComponent>();
+		auto* texTransform = textObj->GetComponent<TransformComponent>();
 		auto textBitmap = ResourceManager::GetInstance().CreateBitmapResource("../Resource/Background/Titletemp.webp");
 		textSprite->SetBitmap(textBitmap);
+		// 타이틀 위치 임시 세팅
+		texTransform->SetTranslation(0, D2DEngineWrapper::GetInstance().m_ClientHeight / 2.0f - 200);
 	}
 };
 

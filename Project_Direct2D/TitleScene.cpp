@@ -7,6 +7,7 @@
 #include "../D2DEngine/TransformComponent.h"
 #include "../D2DEngine/TextRenderComponent.h"
 #include "../D2DEngine/SpriteRenderComponent.h"
+#include "../D2DEngine/UIComponent.h"
 
 /*-----Scripts-----*/
 #include "TitleInputScript.h"
