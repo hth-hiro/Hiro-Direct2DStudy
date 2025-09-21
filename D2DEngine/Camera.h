@@ -24,7 +24,7 @@ private:
 	float smoothingFactor = 0.2f;
 
 	POINT m_prevMousePos;
-	HWND m_hWnd = D2DEngineWrapper::GetInstance().m_hwnd;
+	HWND m_hWnd = D2DEngineWrapper::GetInstance().m_hWnd;
 	int m_Width = D2DEngineWrapper::GetInstance().m_ClientWidth;
 	int m_Height = D2DEngineWrapper::GetInstance().m_ClientHeight;
 };

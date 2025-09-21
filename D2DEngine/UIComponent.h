@@ -1,6 +1,7 @@
 #pragma once
 #include "Component.h"
 #include "RenderSystem.h"
+#include "GameObject.h"
 // ButtonComponent
 // SliderComponent
 // TextComponent
@@ -16,6 +17,9 @@ public:
 
 	virtual void OnEnable() override
 	{
+		if (owner)
+			owner->SetUI(true);
+
 		RenderSystem::GetInstance().Register(this);
 	}
 	virtual void OnDestroy() override

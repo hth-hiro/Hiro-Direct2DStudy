@@ -45,7 +45,7 @@ public:
     // 창 크기
     UINT            m_ClientWidth = 1920;     // 추후에 변경 가능하도록 하는거 고려? (후순위)
     UINT            m_ClientHeight = 1080;
-    HWND            m_hwnd = nullptr;
+    HWND            m_hWnd = nullptr;
 private:
     bool m_initialized = false;
 

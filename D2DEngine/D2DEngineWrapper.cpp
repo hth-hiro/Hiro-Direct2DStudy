@@ -30,7 +30,7 @@ void D2DEngineWrapper::Initialize()
 	RECT clientRect = { 0, 0, clientSize.cx, clientSize.cy };
 	AdjustWindowRect(&clientRect, WS_OVERLAPPEDWINDOW, FALSE);
 
-	m_hwnd = CreateWindowEx(
+	m_hWnd = CreateWindowEx(
 		0,
 		m_WindowName.c_str(),
 		m_TitleName.c_str(),
@@ -42,11 +42,11 @@ void D2DEngineWrapper::Initialize()
 		m_hInstance,
 		this // 인스턴스 주소를 NCREATESTRUCT의 lpCreateParams에 저장
 	);
-	ShowWindow(m_hwnd, SW_SHOW);
-	UpdateWindow(m_hwnd);
+	ShowWindow(m_hWnd, SW_SHOW);
+	UpdateWindow(m_hWnd);
 
 	// 인풋 시스템 시작
-	InputSystem::GetInstance().Startup(m_hwnd);
+	InputSystem::GetInstance().Startup(m_hWnd);
 
 	// D3D 초기화
 	D3D_FEATURE_LEVEL featureLevel;
@@ -75,7 +75,7 @@ void D2DEngineWrapper::Initialize()
 	swapChainDesc.BufferDesc.RefreshRate.Numerator = 60;
 	swapChainDesc.BufferDesc.RefreshRate.Denominator = 1;
 	swapChainDesc.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
-	swapChainDesc.OutputWindow = m_hwnd;
+	swapChainDesc.OutputWindow = m_hWnd;
 	swapChainDesc.SampleDesc.Count = 1;
 	swapChainDesc.SampleDesc.Quality = 0;
 	swapChainDesc.Windowed = TRUE;
