@@ -64,13 +64,11 @@ public:
 			if (!Time::GetInstance().isPaused())
 			{
 				Time::GetInstance().Pause();
-				std::cout << "[Debug] 일시정지" << std::endl;
 				SceneManager::GetInstance().ChangeScene(EScene::Option);
 			}
 			else
 			{
-				Time::GetInstance().Resume();
-				std::cout << "[Debug] 일시정지 해제" << std::endl;
+				Time::GetInstance().Resume();				
 				SceneManager::GetInstance().ChangeScene(SceneManager::GetInstance().GetPrevSceneIndex());
 			}
 		}

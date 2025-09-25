@@ -156,6 +156,7 @@ xcopy /y /e /i "$(SolutionDir)Resource" "$(SolutionDir)x64\Resource\"</Command>
     <ClCompile Include="KinematicScene.cpp" />
     <ClCompile Include="KinematicTextScript.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OptionButtonScript.cpp" />
     <ClCompile Include="OptionScene.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="SceneChangeScript.cpp" />
@@ -186,6 +187,7 @@ xcopy /y /e /i "$(SolutionDir)Resource" "$(SolutionDir)x64\Resource\"</Command>
     <ClInclude Include="DemoGameApp.h" />
     <ClInclude Include="KinematicScene.h" />
     <ClInclude Include="KinematicTextScript.h" />
+    <ClInclude Include="OptionButtonScript.h" />
     <ClInclude Include="OptionScene.h" />
     <ClInclude Include="PlayBackgroundScript.h" />
     <ClInclude Include="PlayerKinematicScript.h" />

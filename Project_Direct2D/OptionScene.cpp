@@ -1,6 +1,7 @@
 #include "OptionScene.h"
 #include "../D2DEngine/Camera.h"
 #include "SceneChangeScript.h"
+#include "OptionButtonScript.h"
 
 void OptionScene::Enter()
 {
@@ -12,6 +13,9 @@ void OptionScene::Enter()
 	// SceneInput
 	GameObject* input = CreateObject<GameObject>();
 	input->AddComponent<SceneChangeScript>();
+
+	GameObject* UIButton = CreateObject<GameObject>();
+	UIButton->AddComponent<OptionButtonScript>();
 
 	Scene::Enter();
 }

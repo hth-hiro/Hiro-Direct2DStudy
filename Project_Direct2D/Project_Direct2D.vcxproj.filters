@@ -141,6 +141,9 @@
     <ClCompile Include="GameOverScene.cpp">
       <Filter>소스 파일\Scenes</Filter>
     </ClCompile>
+    <ClCompile Include="OptionButtonScript.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Project_Direct2D.h">
@@ -268,6 +271,9 @@
     </ClInclude>
     <ClInclude Include="TitleButtonScript.h">
       <Filter>Scripts\01.TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionButtonScript.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,8 @@
 #pragma once
-#include "../D2DEngine/GameObject.h"
 #include "../D2DEngine/ScriptComponent.h"
+
+#include "../D2DEngine/GameObject.h"
+
 #include "../D2DEngine/NewButtonComponent.h"
 #include "../D2DEngine/ResourceManager.h"
 
@@ -10,22 +12,18 @@
 #include "../D2DEngine/SceneManager.h"
 #include "../D2DEngine/Time.h"
 
-class TitleButtonScript : public ScriptComponent
+class OptionButtonScript : public ScriptComponent
 {
 public:
 	void Start() override
 	{
-		CreateButton(L"새로하기", 400, 300, 200, 100, [this]() { StartNewGame(); });
-		CreateButton(L"이어하기", 400, 420, 200, 100, [this]() { ContinueGame(); });
-		CreateButton(L"환경설정", 400, 540, 200, 100, [this]() { OptionScene(); });
-		CreateButton(L"크레딧", 400, 660, 200, 100, [this]() { ShowCredits(); });
-		CreateButton(L"게임 종료", 400, 780, 200, 100, [this]() { ExitGame(); });
+		CreateButton(L"처음화면", 400, 540, 200, 100, [this]() { ReturnTitleScene(); });
 	}
 
 private:
 	void CreateButton(const std::wstring& name, int x, int y, int width, int height, std::function<void()> onClick)
 	{
-		
+
 		auto* scene = owner->GetScene();
 		GameObject* btnObj = scene->CreateObject<GameObject>();
 		auto* button = btnObj->AddComponent<NewButtonComponent>();
@@ -42,12 +40,14 @@ private:
 		button->SetOnClick(onClick);
 	}
 
-	void StartNewGame() { SceneManager::GetInstance().ChangeScene(EScene::Tutorial); }
-	void ContinueGame() {std::cout << "이어하기 누름" << std::endl; }
-	void OptionScene() {
-		SceneManager::GetInstance().ChangeScene(EScene::Option);
-		Time::GetInstance().Pause();
+	//void StartNewGame() { SceneManager::GetInstance().ChangeScene(EScene::Tutorial); }
+	//void ContinueGame() { std::cout << "이어하기 누름" << std::endl; }
+	void ReturnTitleScene() {
+		SceneManager::GetInstance().ChangeScene(EScene::Title);
+		Time::GetInstance().Resume();
 	}
-	void ShowCredits() { std::cout << "만든사람 : 나" << std::endl; }
-	void ExitGame() { PostQuitMessage(0); }
+	//void ShowCredits() { std::cout << "만든사람 : 나" << std::endl; }
+	//void ExitGame() { PostQuitMessage(0); }
+
 };
+
