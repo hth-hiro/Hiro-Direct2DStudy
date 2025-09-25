@@ -18,8 +18,9 @@ public:
 	void SetTotalTime(float time);
 	void SetPlayTime(float time);
 
-	void Pause() { m_isPaused = true; }
-	void Resume() { m_isPaused = false; }
+	// Debug
+	void Pause() { m_isPaused = true; std::cout << "[Debug] 일시정지" << std::endl;}
+	void Resume() { m_isPaused = false; std::cout << "[Debug] 일시정지 해제" << std::endl;}
 	bool isPaused() const { return m_isPaused; }
 
 	void SetTimeScale(float scale) { m_timeScale = scale; }
